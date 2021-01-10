@@ -1,0 +1,129 @@
+body {
+  font-style: initial;
+  text-align: center;
+}
+header h1 {
+  font-family: fantasy;
+}
+header p {
+  text-align: center;
+  background-color: burlywood;
+  margin: 2px;
+  border-radius: 5px;
+  display: inline;
+  width: fit-content;
+}
+header h1 {
+  border: solid black 3px;
+  background-color: white;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 20px;
+  width: fit-content;
+  display: inline;
+}
+main h1 {
+  background: black;
+  color: white;
+  animation-name: movingline;
+  animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes movingline {
+  0% {
+    transform: translateX(200px);
+  }
+  33% {
+    transform: translateX(-300px);
+  }
+  66% {
+    transform: translateX(200px);
+  }
+}
+.About1 {
+  padding: 2px;
+  background-color: teal;
+  opacity: unset;
+  border-radius: 5px;
+  background-image: url(./background_main_h1.jpeg);
+  color: white;
+}
+
+.mainimgs {
+  position: relative;
+  list-style: none;
+  display: flex;
+}
+.test2 {
+  position: absolute;
+  width: 270px;
+  transform: translateX(380px) translateY(210px);
+  animation-name: test2;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes test2 {
+  0% {
+    transform: translateX(380px) translateY(210px);
+  }
+  40% {
+    transform: translateX(380px) translateY(900px);
+  }
+  80% {
+    transform: translateX(380px) translateY(210px);
+  }
+}
+img {
+  margin: 0;
+  padding: 0px;
+  top: 0;
+  height: 320px;
+  width: 500px;
+  cursor: pointer;
+}
+
+img:hover {
+  background: black;
+  box-shadow: black 5px 5px;
+  opacity: 0.8;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  height: 50px;
+}
+
+li {
+  float: left;
+  border: 1px black solid;
+}
+i {
+  background-color: red;
+  opacity: 0.9;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+footer {
+  display: block;
+}

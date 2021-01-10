@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+}
+h4 {
+  background-color: orange;
+}
+#china1 {
+  filter: saturate(3);
+}
+#japan1 {
+  filter: saturate(3);
+}
+#india1 {
+  filter: saturate(3);
+}
+#maldives1 {
+  filter: saturate(3);
+}
+#laos1 {
+  filter: saturate(3);
+}
+#vietnam1 {
+  filter: saturate(3);
+}
+#cambodia1 {
+  filter: saturate(3);
+}
+div.gallery {
+  border: 1px solid black;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity: 0.8;
+}
+
+div.gallery img {
+  width: 250px;
+  height: 180px;
+}
+
+i {
+  background-color: red;
+  opacity: 0.9;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

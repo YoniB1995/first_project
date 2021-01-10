@@ -1,0 +1,167 @@
+body {
+  background-image: url(/main_Project/img/background_main_h1.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-style: oblique;
+  color: black;
+  text-align: center;
+}
+.potrait img {
+  height: 600px;
+  margin: 5px;
+  border: solid 1px black;
+}
+header h1 {
+  border: solid black 3px;
+  background-color: white;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 20px;
+  width: fit-content;
+  display: inline;
+}
+.potrait {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.potrait_p {
+  background: crimson;
+  transform: translateY(-600px) translateX(250px);
+  width: 300px;
+  position: absolute;
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+li p {
+  background: chocolate;
+}
+ol li {
+  margin: 7px;
+}
+ol li img {
+  height: 300px;
+  width: 250px;
+  margin: 2px;
+  border: solid black 1px;
+}
+ol li :hover {
+  box-shadow: 3px 3px black;
+  opacity: 0.5;
+}
+ol li img:active {
+  padding-top: 10px;
+}
+/* .locations {
+  display: flex;
+  justify-content: center;
+}
+.locations img {
+  height: 250px;
+  width: 300px;
+  box-shadow: 2px 2px black;
+  margin: 10px; */
+
+.potrait :nth-child(1):hover {
+  padding-right: 400px;
+  background: cornflowerblue;
+}
+.potrait :nth-child(1):active {
+  padding-left: 400px;
+  border: black 1px solid;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(15px);
+}
+
+div.gallery {
+  border: 1px solid black;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity: 0.8;
+}
+
+div.gallery img {
+  width: 250px;
+  height: 180px;
+}
+
+header ul li i {
+  background-color: red;
+  opacity: 0.9;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  height: 50px;
+}
+header ul li img {
+  height: 165px;
+  width: 170px;
+  box-shadow: 4px 4px black;
+  border-radius: 20px;
+  transform: translateY(30px);
+  transition: all 20s ease;
+}
+.ulul {
+  display: flex;
+  flex-direction: row;
+}
+header li {
+  float: left;
+  border: 1px black solid;
+}
+
+header li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: grey;
+}
