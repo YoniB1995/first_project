@@ -73,7 +73,7 @@ main h1 {
     transform: translateX(380px) translateY(210px);
   }
   40% {
-    transform: translateX(380px) translateY(900px);
+    transform: translateX(380px) translateY(1100px);
   }
   80% {
     transform: translateX(380px) translateY(210px);
