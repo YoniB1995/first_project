@@ -128,11 +128,19 @@ footer {
   display: block;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 10px;
+    justify-content: center;
+  }
+
   .test2 {
     display: none;
   }
-  img {
-    width: 100%;
+  iframe {
+    width: 500px;
+    justify-content: flex-start;
   }
 }
