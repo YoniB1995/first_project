@@ -57,9 +57,9 @@ main h1 {
   display: flex;
 }
 .test2 {
-  position: absolute;
+  position: relative;
   width: 270px;
-  transform: translateX(380px) translateY(210px);
+  transform: translateX(180px) translateY(100px);
   animation-name: test2;
   animation-iteration-count: infinite;
   animation-duration: 10s;
@@ -70,13 +70,13 @@ main h1 {
 
 @keyframes test2 {
   0% {
-    transform: translateX(380px) translateY(210px);
+    transform: translateX(180px) translateY(100px);
   }
   40% {
-    transform: translateX(380px) translateY(1100px);
+    transform: translateX(180px) translateY(1000px);
   }
   80% {
-    transform: translateX(380px) translateY(210px);
+    transform: translateX(180px) translateY(100px);
   }
 }
 img {
@@ -130,16 +130,17 @@ footer {
 
 @media (max-width: 414px) and (max-height: 896px) {
   h1 {
-    font-family: "Courier New", Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
   }
   body {
     display: grid;
     grid-template-areas:
-      "ul ul"
-      "imgs1 imgs2"
-      "imgs3 imgs 4"
+      "header header"
+      "imgs1 imgs3"
+      "imgs4 imgs4"
       "footer footer";
-    font-size: 100%;
+    font-size: 60%;
+
     justify-content: center;
   }
   .imgs1 img {
